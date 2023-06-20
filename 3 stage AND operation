@@ -1,0 +1,12 @@
+counter=1
+a=int(input("Enter 1st Number: "))
+counter=counter+1
+b=int(input("Enter 2nd Number: "))
+counter=counter+1
+res= a and b
+counter=counter+1
+print(res)
+counter=counter+2
+INS=int(input("Enter no.of Instructions: "))
+performace_measure=INS/counter
+print("performace measure: ",performace_measure)
